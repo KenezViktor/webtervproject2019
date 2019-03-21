@@ -2,3 +2,62 @@
 	only use for general purposes
 	for page-specified changes, use the correct css file
 */
+
+
+/*
+	HTML DOMs from bigger to smaller
+*/
+html {
+	width: 100%;
+	margin: none;
+	font-size: 16px;
+	font-family: Helvetica;
+}
+
+body {
+	margin: 0px;
+}
+
+header {
+	width: 100%;
+	height: 4rem;
+	background-color: #feb236;
+	position: fixed;
+}
+
+ul {
+	margin: 0px;
+	padding-left: 0px;
+	margin-left: 3rem;
+}
+
+/*
+	classes from bigger to smaller
+*/
+
+.menu-link {
+	text-decoration: none;
+	color: black;
+}
+
+.menu-link:hover {
+	color: green;
+}
+
+.menu-item {
+	list-style: none;
+	float: left;
+	padding: 1rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 1rem;
+}
+
+/*
+	ids from bigger to smaller
+*/
+
+#logging {
+	float: right;
+	margin-right: 2rem;
+}
