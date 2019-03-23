@@ -7,57 +7,86 @@
 /*
 	HTML DOMs from bigger to smaller
 */
-html {
-	width: 100%;
-	margin: none;
-	font-size: 16px;
-	font-family: Helvetica;
+* {
+	box-sizing: border-box;
 }
 
-body {
+html body {
+	font-size: 16px;
 	margin: 0px;
+	padding: 0px;
 }
 
 header {
-	width: 100%;
-	height: 4rem;
+	height: 15rem;
+	background-color: green;
+}
+
+nav {
 	background-color: #feb236;
-	position: fixed;
+	color: #ddd;
+	overflow: hidden;
 }
 
-ul {
-	margin: 0px;
-	padding-left: 0px;
-	margin-left: 3rem;
-}
+nav a {
 
-/*
-	classes from bigger to smaller
-*/
-
-.menu-link {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 1rem 2rem;
 	text-decoration: none;
 	color: black;
 }
 
-.menu-link:hover {
-	color: green;
-}
-
-.menu-item {
-	list-style: none;
-	float: left;
-	padding: 1rem;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	margin-left: 1rem;
-}
-
-/*
-	ids from bigger to smaller
-*/
-
-#logging {
+#menu-right {
 	float: right;
-	margin-right: 2rem;
+}
+
+nav a:hover {
+	background-color: #ddd;
+	color: #feb236;
+}
+
+#logo {
+	cursor: default;
+}
+
+#logo:hover {
+	background-color: #feb236;
+	color: black;
+	cursor: pointer;
+}
+
+.main {
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+.contant {
+	width: 75%;
+}
+
+aside {
+	width: 25%;
+	padding: 2rem;
+	background-color: #f1f1f1;
+}
+
+footer {
+	padding: 2rem;
+	background-color: #ddd;
+}
+
+/* Responsive layout*/
+@media screen and (max-width: 700px) {
+  .main { 
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav a {
+    float: none;
+    width: 100%;
+  }
 }
