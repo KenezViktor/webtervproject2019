@@ -1,3 +1,66 @@
 /*
 	for the login.html's design
 */
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background: url(wp.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	display: table;
+}
+
+.signin {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: transLateX(-50%) transLateY(-50%);
+	border: 1px solid rgba(255,255,255,0.3);
+	border-radius: 5px;
+	padding: 3em;
+}
+
+h2 {
+	font-family: 'Work Sans';
+	font-weight: lighter;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+input {
+	display: block;
+	width: 320px;
+	height: 50px;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border: 1px solid rgba(0,0,0,0.5);
+	font-family: Source Sans Pro;
+	font-weight: lighter;
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	font-family: 'Work Sans';
+}
+
+button {
+	width: 322px;
+	height: 50px;
+	font-size: 16px;
+	background: rgba(238, 238, 0, 1);
+	font-weight: lighter;
+	color: #000;
+	border: 0px;
+	border-radius: 5px;
+}

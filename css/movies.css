@@ -1,3 +1,56 @@
 /*
 	for the movies.html's design
 */
+
+p {
+	text-align: center;
+}
+
+body {
+	background-color: red;
+}
+
+img.filmpic {
+            width: 150px;
+			height: 220px;
+            border: 50%;
+            padding: 0px;
+			display: fixed;
+			transition: 0.2s;
+			opacity: 0.95;
+        }
+
+img.filmpic:hover {
+	transform: scale(1.2);
+	opacity: 1;
+}		
+
+div.placeForPic {
+    width: 150px;
+    height: 275px;
+    background-color: #ddd;
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+    display: block;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(23, 20, 37, 0.5);
+	
+}
+
+div.redstuff {
+    width: 150px;
+    height: 220px;
+    background-color: red;
+    float: left;
+    text-align: center;
+    margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    display: block;
+	overflow: hidden;
+}    
