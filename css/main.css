@@ -28,6 +28,7 @@ nav {
 	background-color: yellow;
 	color: red;
 	overflow: hidden;
+	position: fixed;
 }
 
 nav a {
