@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="stylesheet" type="text/css" href="../css/create.css">
+		<link rel="shortcut icon" href="../favicon.ico" />
+	</head>
+	<body>
+	
+		<nav>
+			<a href="../index.html">Home</a>
+			<a href="movies.html">Movies</a>
+			<a href="members.html">Members</a>
+			<a class="active" href="login.html" id="menu-right">Logging</a>
+		</nav>
+
+		<div id="page">
+		
+        <main>
+            <section class="profile">
+                <div class="profilepic">
+                    <img class="profilepic" src="../html/img/cuteCat.jpg" alt="Profile picture"> <br/>
+                    <label for="profilechanger">Change profile picture</label> <br/>
+                    <input type="file" name="profilechanger" id="profilechanger" />
+                </div>
+                <div class="Data">
+                    <h3>Username</h3>
+                    <table>
+                        <tr>
+                            <td class="askedData"> Sex: </td>
+                            <td>
+                                <form name="sex">
+                                    <input type="radio" name="sex" value="male"> Male
+                                    <input type="radio" name="sex" value="female"> Female
+									<input type="radio" name="sex" value="else" checked>Else
+                                </form>
+                            </td>
+                        </tr>
+						
+                        <tr>
+                            <td class="askedData">
+                                <label for="dateofbirth"> Date of birth: </label>
+                            </td>
+                            <td>
+                                <input name="dateofbirth" type="date" id="dateofbirth" />
+                        </tr>
+						
+                        <tr>
+                            <td class="askedData">
+                                <label for="email"> E-mail: </label>
+                            </td>
+                            <td>
+                                <input name="email" type="email" id="email" />
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="askedData">
+                                <label for="numbers"> Watched films: </label>
+                            </td>
+                            <td>
+                                <select name="continent" id="continent">
+                                    <option selected>Choose</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+				
+                <div class="favourite">
+                    <h4> Favourite films:</h4>
+					<ul>
+                        <li>Iron man</li>
+                        <li>Iron man 3</li>
+                    </ul>
+                </div>
+                
+                <div class="aboutme">
+                    <h3> About me:</h3>
+                    <textarea rows="8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et nisi aliquet, gravida est ut, finibus nibh. Ut nisi tellus, euismod eget orci et, venenatis tincidunt metus. Nunc blandit nisi at nisi congue laoreet. Ut vel lacus mi. Nullam in leo vitae purus ultrices eleifend id sed eros. Pellentesque tempus risus quis commodo venenatis.</textarea>
+                </div>
+				
+                <div class="submit">
+                    <input class="save" type="submit" value="Save profile">
+                </div>
+				
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        My website 2019
+    </footer>
+
+	</body>
+</html>
