@@ -2,3 +2,64 @@
 	for the profile.html's design
 */
 
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 20rem;
+  height: 16rem;
+}
+
+aside {
+  flex: 30%;
+  text-align: center;
+  background: #FF8C00;
+  padding: 0px;
+  padding-top: 15rem;
+}
+
+section {
+  flex: 70%;
+  float: left;
+  padding-left: 5rem;
+  padding-right: 10rem;
+  padding-top: 10rem;
+}
+
+.member {
+  padding-left: 1rem;
+}
+
+#favorites {
+  width: 100%;
+}
+
+
+.contain a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.contain li {
+  padding: 0px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.contain ul {
+  list-style-type: none;
+  margin-top: 10rem;
+  padding-left: 0px;
+}
+
+.contain li:hover{
+  background-color: #FFA500;
+}
