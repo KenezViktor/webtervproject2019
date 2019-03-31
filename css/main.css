@@ -19,6 +19,7 @@ html body {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Work Sans';
+	background-color: red;
 }
 
 header {
@@ -83,12 +84,12 @@ footer {
 
 .active {
 	background-color: #ddd;
-	color: #ff2700; 
+	color: #ff2700;
 }
 
 /* Responsive layout*/
 @media screen and (max-width: 700px) {
-  .main { 
+  .main {
     flex-direction: column;
   }
 }

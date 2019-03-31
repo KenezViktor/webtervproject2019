@@ -1,3 +1,59 @@
 /*
 	for the members.html's design
 */
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 0px;
+  text-align: center;
+}
+
+section {
+  flex: 70%;
+  background-color: red;
+  padding: 0px;
+  float: left;
+}
+
+#search {
+  width: 100%;
+  font-size: 2rem;
+  border: none;
+}
+
+h3 {
+  margin-left: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-left: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  text-decoration: none;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: #B22222;
+}
