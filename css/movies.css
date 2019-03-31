@@ -11,8 +11,8 @@ body {
 }
 
 img.filmpic {
-            width: 150px;
-			height: 220px;
+            width: 9.375rem;
+			height: 13.75rem;
             border: 50%;
             padding: 0px;
 			display: fixed;
@@ -23,27 +23,28 @@ img.filmpic {
 img.filmpic:hover {
 	transform: scale(1.2);
 	opacity: 1;
-}		
+	cursor: pointer;
+}
 
 div.placeForPic {
-    width: 150px;
-    height: 275px;
+    width: 9.375rem;
+    height: 17.1875rem;
     background-color: #ddd;
     float: left;
     text-align: center;
-    margin-right: 30px;
-	margin-left: 30px;
-	margin-top: 10px;
-	margin-bottom: 20px;
+    margin-right: 1.875rem;
+	margin-left: 1.875rem;
+	margin-top: 0.625rem;
+	margin-bottom: 1.25rem;
     display: block;
-	border-radius: 10px;
+	border-radius: 0.625rem;
 	box-shadow: 5px 5px 5px rgba(23, 20, 37, 0.5);
-	
+
 }
 
 div.redstuff {
-    width: 150px;
-    height: 220px;
+    width: 9.375rem;
+    height: 13.75rem;
     background-color: red;
     float: left;
     text-align: center;
@@ -53,4 +54,4 @@ div.redstuff {
 	margin-bottom: 0px;
     display: block;
 	overflow: hidden;
-}    
+}
